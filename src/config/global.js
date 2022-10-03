@@ -1,17 +1,34 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Segmentos de mercado y grupo objetivo',
+    descripcionCurso:
+      'La segmentación de mercado es una herramienta por medio de la cual es posible identificar las características de una población objetiva, a la cual se buscará encuestar para recolectar información estratégica para la organización.<br>En este componente formativo se plantearán los conceptos para segmentar y establecer grupos objetivos, para continuar con actividades prácticas con el fin de aplicar la fundamentación teórica adquirida',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.png'),
       },
     ],
   },
@@ -32,31 +49,43 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Segmentación de mercado',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Mercadeo',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tipos de mercadeo',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Grupo objetivo',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Mercadeo',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Población objetiva y público a encuestar',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +130,106 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Evolución concepto de mercadeo.',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Evolución concepto de mercadeo. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/DgLQ5jA1pIw',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Identificación del mercado y población objeto. ',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Identificación del mercado y población objeto. YouTube. ',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=8talMCmrZ5Q',
+    },
+    {
+      tema: 'Investigación de mercados.',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Investigación de mercados. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=No9yQXsjmXM',
+    },
+    {
+      tema:
+        '¿Qué es mercadeo verde (Green Marketing)? Ejemplos de mercadeo verde en el mundo.',
+      referencia:
+        '¿Qué es mercadeo verde (Green Marketing)? Ejemplos de mercadeo verde en el mundo.',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=PbdVwChb71Q',
+    },
+    {
+      tema: 'Recolección de datos.',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Recolección de datos. YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=TinhDQv6UH8&t=29s',
+    },
+    {
+      tema: 'Segmentación del mercado.',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA (2022). Segmentación del mercado. YouTube.',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=wFqLQDbb03g',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Análisis:',
+      significado:
+        'es el proceso donde se estudia información relevante para un proceso investigativo, generando conclusiones que faciliten el estudio de los datos obtenidos.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Competitividad empresarial:',
+      significado:
+        'se entiende como la capacidad que tienen las empresas para desarrollar estrategias específicas para el sostenimiento, crecimiento y mejoramiento de la empresa, de acuerdo con las estrategias implementadas dentro de la misma.',
+    },
+    {
+      termino: 'Datos:',
+      significado:
+        'estos son considerados como la información específica y relevante (cualitativa o cuantitativa) arrojada por un proceso investigativo, para su posterior análisis.  ',
+    },
+    {
+      termino: 'Estrategia de Estrategia de ',
+      significado:
+        'son procesos o acciones específicas desarrolladas por las empresas para el cumplimiento de un objetivo previamente planteado por la misma. ',
+    },
+    {
+      termino: 'Fuentes de Información:',
+      significado:
+        'es una herramienta gratuita que permite el análisis de información estadística proveniente de un sitio web.',
+    },
+    {
+      termino: 'Rentabilidad:',
+      significado:
+        'se define como la capacidad de las empresas para el aprovechamiento de recursos, esto con el fin de producir ganancias o ingresos a las mismas.',
+    },
+    {
+      termino: 'Recursos empresariales:',
+      significado:
+        'son herramientas o elementos que contribuyen al desarrollo de los diferentes procesos que se ven involucrados dentro de una empresa, estos pueden ser tangibles e intangibles, como lo son el factor económico, el personal, el tiempo, entre otros.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Libro: Grasso, L. (2006). Encuestas: elementos para su diseño y Análisis [Ebook]. Encuentro Grupo Editor. ',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=2718',
+    },
+    {
+      referencia:
+        'Libro: Hoyer, W. D., Pieters, R., Maclnnis, D. J. (2018). Comportamiento del consumidor [Ebook]. Cengage Learning. ',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7493',
+    },
+    {
+      referencia:
+        'Libro: Kerin, R. A., Hartley, S. W. (2019). Marketing [Ebook]. McGraw-Hill. ',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9915',
+    },
+    {
+      referencia:
+        'Libro: Sanabria Araya, F. (2018). Investigación de mercados: un enfoque práctico y descriptivo [Ebook]. Ecoe Ediciones. ',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7409',
     },
   ],
   creditos: {

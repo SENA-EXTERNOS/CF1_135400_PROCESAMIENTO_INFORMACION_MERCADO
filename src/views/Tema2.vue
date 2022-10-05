@@ -10,7 +10,7 @@
     .row.justify-content-center
       .col-12.col-lg-10
         .tarjeta.tarjeta--amarilla
-          .row.p-3
+          .row.justify-content-center.p-3
             .col-8.col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema2/img1.png', alt='Texto que describa la imagen').tema2-img-1
@@ -24,11 +24,11 @@
     .titulo-segundo.color-acento-contenido.mt-5
       h2 2.1 Segmentación
 
-    .bloque-texto-g.color-secundario.p-2.p-sm-4.p-md-5
+    .bloque-texto-g.color-secundario.p-2.p-sm-4.p-md-4
       .bloque-texto-tema2__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.png')})`}"
       )
-      .bloque-texto-tema2__texto.p-3
+      .bloque-texto-tema2__texto.p-4
         p La definición del grupo objetivo para una empresa no es suficiente para orientar todas sus estrategias para el crecimiento de esta, por lo cual requieren desarrollar la segmentación del mercado,#[strong esta posibilita las estrategias de forma orientada y clara para el desarrollo de las mejores metodologías enfocadas en el mercado.]
         p.mt-3 La segmentación clasifica de forma detallada los diferentes componentes que pueden afectar directamente a la empresa, de acuerdo con la industria que esta pertenezca y el tipo de consumo de esta, es decir que de acuerdo con los criterios de demanda se podrá realizar una segmentación objetiva; teniendo en cuenta lo anterior se pueden considerar diferentes tipos de segmentación:
 
@@ -40,11 +40,11 @@
       .col-11.col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--amarilla")
           .row(titulo="Segmentación geográfica")
-            p Como su nombre lo indica este tipo de segmentación únicamente se rige a partir la ubicación geográfica en las que se encuentran las personas, esto con el fin de identificar tiempos y distancia de distribución. Lo anterior contribuye a las empresas, ya que podrán establecer diferentes estrategias de mercadeo, distribución y comercialización de productos o servicios, teniendo en cuenta las diferencias de horarios, las brechas o recorridos de la ubicación de los lugares, entre otros. 
+            p Como su nombre lo indica este tipo de segmentación únicamente se rige a partir #[strong la ubicación geográfica] en las que se encuentran las personas, esto con el fin de identificar tiempos y distancia de distribución. Lo anterior contribuye a las empresas, ya que podrán establecer diferentes estrategias de mercadeo, distribución y comercialización de productos o servicios, teniendo en cuenta las diferencias de horarios, las brechas o recorridos de la ubicación de los lugares, entre otros. 
             
 
           .row(titulo="Segmentación demográfica")
-            p La segmentación demográfica se refiera a todo tipo de identificación de las características básicas y de fácil acceso, ya que consta de datos generales respecto al grupo objetivo de la marca. Entre sus principales características se evaluar se encuentran:
+            p La segmentación demográfica se refiera a todo tipo de identificación de las #[strong características básicas] y de fácil acceso, ya que consta de datos generales respecto al grupo objetivo de la marca. Entre sus principales características se evaluar se encuentran:
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--azul
@@ -64,7 +64,7 @@
             p Las características mencionadas anteriormente es la información básica y relevante implementada para llevar a cabo la segmentación demográfica, teniendo en cuenta que esta facilitare el proceso de desarrollo de estrategias de mercadeo, distribución y comercialización de bienes o productos, generando beneficios óptimos para las empresas y el cliente. (Moncayo, M. 1998).
 
           .row(titulo="Segmentación psicográfica")
-            p Como infiere su nombre, esta se enfoca en los aspectos psicológicos del ser humano, esto teniendo en cuenta que solo se debe relacionar directamente en el grupo objetivo de las empresas, por lo que se considera uno de los tipos de segmentación más útiles en los últimos tiempos, ya que a través del factor humano es sencillo empatizar con el cliente, teniendo en cuenta que existe una afinidad entre los enfoques del consumidor con el de la empresa. Dentro de las principales características que utiliza este estudio se encuentran: 
+            p Como infiere su nombre, esta se enfoca en los #[strong aspectos psicológicos] del ser humano, esto teniendo en cuenta que solo se debe relacionar directamente en el grupo objetivo de las empresas, por lo que se considera uno de los tipos de segmentación más útiles en los últimos tiempos, ya que a través del factor humano es sencillo empatizar con el cliente, teniendo en cuenta que existe una afinidad entre los enfoques del consumidor con el de la empresa. Dentro de las principales características que utiliza este estudio se encuentran: 
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--azul
@@ -82,7 +82,7 @@
                 i.fas.fa-angle-right.txt--azul
                 | #[strong Motivaciones]
           .row(titulo="Segmentación conductual")
-            p Este tipo de segmentación se busca relacionar directamente con el comportamiento que tiene el cliente en el momento de adquirir un producto o servicio, esto ya sea antes, durante y después de la compra. Esto sirve para comprometerá la empresa y determinar las características de mejora de los elementos que fabrican. Entre las características que este tipo de segmentación estudia se encuentran:
+            p Este tipo de segmentación se busca relacionar directamente con el #[strong comportamiento que tiene el cliente en el momento de adquirir un producto o servicio], esto ya sea antes, durante y después de la compra. Esto sirve para comprometerá la empresa y determinar las características de mejora de los elementos que fabrican. Entre las características que este tipo de segmentación estudia se encuentran:
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--azul
@@ -118,7 +118,7 @@
                         figure
                           img(src='@/assets/curso/temas/tema2/img5.png', alt='Texto que describa la imagen').img5-tema2
                       .col-10.mt-2
-                        b Mejorar productoso servicios
+                        b Mejorar productos o servicios
                     .row.mt-5
                       p Al conocer el grupo de personas al cual se deben direccionar las acciones, se podrá realizar investigaciones específicas para inferir sobre los posibles cambios para la mejora del producto o servicio por la empresa, es decir se conocerá de primera mano los verdaderos cambios que requieren para seguir satisfaciendo las necesidades de sus clientes o consumidores.
                   .col-lg-4
@@ -144,8 +144,8 @@
     .row.justify-content-center.mt-5
       .col-12
         .tarjeta.tarjeta--gris2
-          .row.p-3
-            .col-8.col-lg-4
+          .row.justify-content-center.p-3
+            .col-7.col-lg-4.mb-3
               figure
                 img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen').tema2-img-7
             .col-11.col-lg-8
@@ -236,6 +236,7 @@
     .row.mt-5
       figure
         img(src='@/assets/curso/temas/tema2/img15.png', alt='Texto que describa la imagen')
+
 
 </template>
 

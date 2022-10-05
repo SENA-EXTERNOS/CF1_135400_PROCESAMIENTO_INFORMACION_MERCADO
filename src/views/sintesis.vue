@@ -15,7 +15,7 @@
     .row.justify-content-center
       .col-lg-10.mt-5
         figure
-          img(src="@/assets/curso/temas/sintesis.png", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto.mt-5
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -8,7 +8,7 @@
       h1 Segmentación de mercado
 
            
-    .row.justify-content-center
+    .row
       .col-6.col-lg-3
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Texto que describa la imagen')
@@ -16,16 +16,20 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
             .row.display-flex
-              i.fas.fa-quote-left
-              .col-lg-5                
-                p Dentro de las principales características que definen el mercado de hoy en día se encuentra la segmentación de mercado, esta ha generado que las empresas enfoquen sus recursos y esfuerzos en un público específico. #[strong La segmentación de mercado permite identificar y determinar el nicho de mercado] al que la empresa deberá apuntar, para el crecimiento y sostenimiento de estas.
+              .col-lg-6
+                .row.display-flex
+                  .col-2
+                    i.fas.fa-quote-left 
+                  .col-10         
+                    p Dentro de las principales características que definen el mercado de hoy en día se encuentra la segmentación de mercado, esta ha generado que las empresas enfoquen sus recursos y esfuerzos en un público específico. #[strong La segmentación de mercado permite identificar y determinar el nicho de mercado] al que la empresa deberá apuntar, para el crecimiento y sostenimiento de estas.
 
-              .col-lg-7
-                p.mt-4 La segmentación de mercado ha generado un cambio en la historia, ya que al inicio simplemente las marcas se enfocaban en vender el producto sin darle mucha importancia a lo que era el nicho, hoy en día se sabe que lo mínimo que se debe conocer para el estudio de segmentación del mercado, es la geografía, la demografía, los elementos psicográficos y las características conductuales, siendo los anteriores debidamente analizados, con el fin de obtener los elementos más claros y realistas posibles, para desarrollar una adecuada segmentación para luego relacionarla con los objetivos de la empresa.
-                br
-                br
-                span - #[strong Hurtado y Galindo, 2003]
-                i.fas.fa-quote-right
+              .col-lg-6
+                .row
+                  p.mt-4 La segmentación de mercado ha generado un cambio en la historia, ya que al inicio simplemente las marcas se enfocaban en vender el producto sin darle mucha importancia a lo que era el nicho, hoy en día se sabe que lo mínimo que se debe conocer para el estudio de segmentación del mercado, es la geografía, la demografía, los elementos psicográficos y las características conductuales, siendo los anteriores debidamente analizados, con el fin de obtener los elementos más claros y realistas posibles, para desarrollar una adecuada segmentación para luego relacionarla con los objetivos de la empresa.
+
+                .row.alinear-derecha
+                  span - #[strong Hurtado y Galindo, 2003]
+                  i.fas.fa-quote-right
 
 
     .row.mt-5.mb-5
@@ -205,7 +209,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img10.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Se puede definir mercadeo como una ACCIÓN, que aplica estrategias para dar solución a una necesidad especifica de un determinado grupo de personas; el objetivo del mercadeo es desarrollar un producto o servicio que se encuentre acorde con la respuesta asertiva de la necesidad especifica de este nicho de mercado.
+          p.mb-0 Las estrategias de mercado mencionadas son solo algunas de las utilizadas, existen otras que se implementan las empresas de acuerdo con los resultados obtenidos durante el proceso de mercadeo. Es importante resaltar que la mayoría de las estrategias o tipos de mercado se pueden utilizar de forma individual o en conjunto, teniendo claro que el objetivo siempre sea el mismo. 
 
     separador
 
@@ -219,7 +223,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
       .col-11.mt-2
-        p Al igual que la definición de mercadeo, la investigación de mercados se puede interpretar como la recolección de datos específicos, la interpretación y análisis de la información, todo esto con el fin de establecer las posibles actividades para la implementación de estrategias de mercadeo acordes con los objetivos de la empresa y los requerimientos del cliente.
+        p Al igual que la definición de mercadeo, la investigación de mercados se puede interpretar como #[strong la recolección de datos específicos, la interpretación y análisis de la información,] todo esto con el fin de establecer las posibles actividades para la implementación de estrategias de mercadeo acordes con los objetivos de la empresa y los requerimientos del cliente.
 
     .row.justify-content-center.mt-5
       .col-11.col-lg-7

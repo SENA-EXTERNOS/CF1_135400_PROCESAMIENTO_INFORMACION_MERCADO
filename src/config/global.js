@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Segmentos de mercado <br>y grupo objetivo',
     descripcionCurso:
-      'La segmentación de mercado es una herramienta por medio de la cual es posible identificar las características de una población objetiva, a la cual se buscará encuestar para recolectar información estratégica para la organización.<br>En este componente formativo se plantearán los conceptos para segmentar y establecer grupos objetivos, para continuar con actividades prácticas con el fin de aplicar la fundamentación teórica adquirida',
+      'La segmentación de mercado es una herramienta por medio de la cual es posible identificar las características de una población objetiva, a la cual se buscará encuestar para recolectar información estratégica para la organización.<br><br>En este componente formativo se plantearán los conceptos para segmentar y establecer grupos objetivos, para continuar con actividades prácticas con el fin de aplicar la fundamentación teórica adquirida',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -195,17 +195,17 @@ export default {
         'son procesos o acciones específicas desarrolladas por las empresas para el cumplimiento de un objetivo previamente planteado por la misma. ',
     },
     {
-      termino: 'Fuentes de Información:',
+      termino: 'Fuentes de Información',
       significado:
-        'es una herramienta gratuita que permite el análisis de información estadística proveniente de un sitio web.',
+        'estos se refieren a los instrumentos que proporciona información relevante sobre temas específicos, estas pueden ser de acceso gratuito o de pago',
     },
     {
-      termino: 'Rentabilidad:',
+      termino: 'Rentabilidad',
       significado:
         'se define como la capacidad de las empresas para el aprovechamiento de recursos, esto con el fin de producir ganancias o ingresos a las mismas.',
     },
     {
-      termino: 'Recursos empresariales:',
+      termino: 'Recursos empresariales',
       significado:
         'son herramientas o elementos que contribuyen al desarrollo de los diferentes procesos que se ven involucrados dentro de una empresa, estos pueden ser tangibles e intangibles, como lo son el factor económico, el personal, el tiempo, entre otros.',
     },

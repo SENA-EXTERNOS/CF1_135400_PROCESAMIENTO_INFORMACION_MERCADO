@@ -20,16 +20,16 @@
       .col-11.col-lg-6.mt-5
         figure
           img(src='@/assets/curso/temas/introduccion/img2.png', alt='Texto que describa la imagen')
-      .col-11.col-lg-6.mt-3
+      .col-11.col-lg-6.mt-5
         p En la actualidad los mercados son cada vez más competitivos, ya que la globalización ha permitido que el consumidor se diversifique en requerimientos y expectativas de productos a través de una sofisticación generada por los medios digitales de comunicación, ingreso a mercados locales de empresas internacionales, cambios culturales, entre otros. Es por ello que las organizaciones deben generar modificaciones constantes en sus modelos de negocio y producto para renovarse constantemente de acuerdo a las nuevas tendencias del mercado y consumidor. 
-        p Pero para lograr estos cambios constantes y mantenerse competitivo es necesario implementar una cultura persistente de estudios de mercado, los cuales inician con la segmentación e identificación del grupo de clientes objetivos, la cual se debe realizar de forma periódica para ser asertivos a los requerimientos del consumidor según las políticas organizaciones y recursos disponibles.
+        p.mt-3 Pero para lograr estos cambios constantes y mantenerse competitivo es necesario implementar una cultura persistente de estudios de mercado, los cuales inician con la segmentación e identificación del grupo de clientes objetivos, la cual se debe realizar de forma periódica para ser asertivos a los requerimientos del consumidor según las políticas organizaciones y recursos disponibles.
 
 
     .row.justify-content-center.mt-5
       .tarjeta.tarjeta--azul
         .row
           .col-9
-            p.mt-4 Si desea conocer más información respecto a los puntos a tratar dentro del componente formativo lo invitamos a ver el video de bienvenida, donde se explicará más a fondo los temas y áreas de proyección sobre encuestar personas según técnica de recolección y manual de encuestador.
+            p.mt-4 #[strong Si desea conocer más información respecto a los puntos a tratar dentro del componente formativo lo invitamos a ver el video de bienvenida, donde se explicará más a fondo los temas y áreas de proyección sobre encuestar personas según técnica de recolección y manual de encuestador.]
           .col-4
             figure
               img(src='@/assets/curso/temas/introduccion/img3.png', alt='Texto que describa la imagen').img3-introduccion

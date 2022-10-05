@@ -18,13 +18,13 @@
             .row.display-flex
               i.fas.fa-quote-left
               .col-lg-5                
-                p Dentro de las principales características que definen el mercado de hoy en día se encuentra la segmentación de mercado, esta ha generado que las empresas enfoquen sus recursos y esfuerzos en un público específico. La segmentación de mercado permite identificar y determinar el nicho de mercado al que la empresa deberá apuntar, para el crecimiento y sostenimiento de estas.
+                p Dentro de las principales características que definen el mercado de hoy en día se encuentra la segmentación de mercado, esta ha generado que las empresas enfoquen sus recursos y esfuerzos en un público específico. #[strong La segmentación de mercado permite identificar y determinar el nicho de mercado] al que la empresa deberá apuntar, para el crecimiento y sostenimiento de estas.
 
               .col-lg-7
                 p.mt-4 La segmentación de mercado ha generado un cambio en la historia, ya que al inicio simplemente las marcas se enfocaban en vender el producto sin darle mucha importancia a lo que era el nicho, hoy en día se sabe que lo mínimo que se debe conocer para el estudio de segmentación del mercado, es la geografía, la demografía, los elementos psicográficos y las características conductuales, siendo los anteriores debidamente analizados, con el fin de obtener los elementos más claros y realistas posibles, para desarrollar una adecuada segmentación para luego relacionarla con los objetivos de la empresa.
                 br
                 br
-                span - (Hurtado y Galindo, 2003)
+                span - #[strong Hurtado y Galindo, 2003]
                 i.fas.fa-quote-right
 
 
@@ -44,12 +44,11 @@
 
     .row.justify-content-center
       .col-12.col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-secundario.p-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Se puede definir mercadeo como una ACCIÓN, que aplica estrategias para dar solución a una necesidad especifica de un determinado grupo de personas; el objetivo del mercadeo es desarrollar un producto o servicio que se encuentre acorde con la respuesta asertiva de la necesidad especifica de este nicho de mercado.
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2.png')})`}")
+          .bloque-texto-g__texto.p-3
+            p.mb-0 Se puede definir mercadeo como una ACCIÓN, que aplica estrategias para dar solución a una necesidad especifica de un determinado grupo de personas; #[strong el objetivo del mercadeo es desarrollar un producto o servicio que se encuentre acorde con la respuesta asertiva de la necesidad especifica de este nicho de mercado.]
     
     .row.justify-content-center
       .col-11.col-lg-11
@@ -61,9 +60,9 @@
                   br
                   br
                   b - (Servicio Nacional de Aprendizaje SENA, 2000).
-                .col-12.col-lg-3.mb-3
+                .col-12.col-lg-4.mb-3
                   p.mt-4 #[strong El desarrollo de estrategias de mercado permite el adecuado crecimiento, mantenimiento y sostenimiento de las empresas,] por lo que es de vital importancia identificar y definir el verdadero objetivo de esta. Las estrategias de mercadeo se acomodan de acuerdo con el objetivo de la empresa y los productos que ofrecen.
-                .col-10.col-lg-3
+                .col-10.col-lg-2
                   figure
                     img(src='@/assets/curso/temas/tema1/img3.png', alt='Texto que describa la imagen')
 
@@ -75,8 +74,8 @@
               img(src='@/assets/curso/temas/tema1/img4.png', alt='Texto que describa la imagen').img4-tema1 
 
           .col-12.col-lg-9.mb-5
-            p.mt-4 Teniendo en cuenta lo anterior, al interpretar el objetivo del mercadeo, se puede inferir que el mercadeo tiene como objetivo brindar un producto o servicio a un cliente especifico que solvente una necesidad particular, no obstante, para llegar a dicho resultado, se debe tener en cuenta un proceso de exploración, que permita determinar los mejores objetivos para llevar a cabo esta actividad. 
-            p No existe una formula correcta en la que se puedan establecer los objetivos para llevar a cabo el mercadeo, sin embargo, se han desarrollado una variedad de posibles pasos a desarrollar como lo es la técnica SMART, la cual es muy utilizada en el medio, en donde cada una de sus siglas en ingles corresponden a un elemento especifico:
+            p.mt-4 Teniendo en cuenta lo anterior, al interpretar el objetivo del mercadeo, se puede inferir que #[strong el mercadeo tiene como objetivo brindar un producto o servicio a un cliente especifico que solvente una necesidad particular], no obstante, para llegar a dicho resultado, se debe tener en cuenta un proceso de exploración, que permita determinar los mejores objetivos para llevar a cabo esta actividad. 
+            p No existe una formula correcta en la que se puedan establecer los objetivos para llevar a cabo el mercadeo, sin embargo, se han desarrollado una variedad de posibles pasos a desarrollar como lo es #[strong la técnica SMART,] la cual es muy utilizada en el medio, en donde cada una de sus siglas en ingles corresponden a un elemento especifico:
 
     .titulo-sexto.color-acento-contenido.mt-5
       t #[strong Figura 1.] Los 5 criterios de los objetivos SMART 
@@ -86,7 +85,7 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema1/img5.png', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
+
 
       .tarjeta.bgr-tarjeta.p-3(x="37%" y="30%" numero="+")
         h5.mb-2 S-Specific (especifico)
@@ -130,22 +129,22 @@
           ul.lista-ul.mb-4
             li 
               i.fas.fa-angle-right.txt--violeta
-              |  Mayor alcance a su público objetivo (nacional o internacional).
+              |  #[strong Mayor alcance a su público objetivo (nacional o internacional).]
             li 
               i.fas.fa-angle-right.txt--violeta
-              | Menor inversión en publicidad digital.
+              | #[strong Menor inversión en publicidad digital.]
             li 
               i.fas.fa-angle-right.txt--violeta
-              | Facilidad en recolección y análisis de datos.
+              | #[strong Facilidad en recolección y análisis de datos.]
             li 
               i.fas.fa-angle-right.txt--violeta
-              | Mejor interacción con el público objetivo.
+              | #[strong Mejor interacción con el público objetivo.]
             li 
               i.fas.fa-angle-right.txt--violeta
-              | Flexibilidad en cuanto al tipo de contenido que se publica (videos, imágenes, textos).
+              | #[strong Flexibilidad en cuanto al tipo de contenido que se publica (videos, imágenes, textos).]
             li 
               i.fas.fa-angle-right.txt--violeta
-              | Desarrollo de una identidad de marca.
+              | #[strong Desarrollo de una identidad de marca.]
         
         p.mt-3 Estos solo son algunos de los beneficios que se generan al hacer uso del mercadeo dentro de las empresas, los cuales facilitan los objetivos de estas, independientemente de los que se hayan fijado en cada una de estas.
       
@@ -169,39 +168,39 @@
                 img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen').img11-tema1 
 
             .col-12.col-lg-9.mt-2.p-5
-              p El mercadeo es un concepto ha ido evolucionado poco a poco, esto ha generado que la tipología de este evolucione y varie de acuerdo con las características que se le atribuyan, no obstante, entre la tipología más conocida se encuentran: 
+              b El mercadeo es un concepto ha ido evolucionado poco a poco, esto ha generado que la tipología de este evolucione y varie de acuerdo con las características que se le atribuyan, no obstante, entre la tipología más conocida se encuentran: 
  
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--amarilla")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--amarilla").p-3
       .row(titulo="Mercadeo analítico")
-        .col-md-6.mb-4.mb-md-0
-          p Este tipo de mercadeo es el más implementado con relación al resto, ya que este se rige a partir de los resultados obtenidos por los datos recolectados en las diferentes fuentes de información, ya sean propias o de terceras, esto quiere decir que los datos pueden ser extraídos directamente por la empresa y utilizados en la misma, mientras que la información obtenida por otras fuentes puede ser utilizada por varias empresas en diferentes sectores; un ejemplo de la recolección de datos elaborada por terceros son las herramientas como Google Analytics. Esto tiene como fin identificar y realizar la mejor toma de decisiones para el desarrollo de procesos dentro y fuera de la empresa, con el fin de minimizar la cantidad de riesgos, en la ejecución de decisiones.
+        .col-12.p-5
+          p Este tipo de mercadeo es el más implementado con relación al resto, ya que este se rige a partir de los #[strong resultados obtenidos por los datos recolectados] en las diferentes fuentes de información, ya sean propias o de terceras, esto quiere decir que los datos pueden ser extraídos directamente por la empresa y utilizados en la misma, mientras que la información obtenida por otras fuentes puede ser utilizada por varias empresas en diferentes sectores; un ejemplo de la recolección de datos elaborada por terceros son las herramientas como Google Analytics. Esto tiene como fin identificar y realizar la mejor toma de decisiones para el desarrollo de procesos dentro y fuera de la empresa, con el fin de minimizar la cantidad de riesgos, en la ejecución de decisiones.
 
       .row(titulo="Mercadeo estratégico")
-        .col-md-6.mb-4.mb-md-0
-          p Al igual que el mercadeo analítico este implementa el análisis de mercado con el fin de generar estrategias objetivas y certeras sobre los diferentes procesos que se podrán implementar para el crecimiento de la empresa, teniendo en cuentas las variantes que se pueda ejecutar dentro del mismo.
+        .col-12.p-5
+          p Al igual que el mercadeo analítico este implementa el #[strong análisis de mercado] con el fin de generar estrategias objetivas y certeras sobre los diferentes procesos que se podrán implementar para el crecimiento de la empresa, teniendo en cuentas las variantes que se pueda ejecutar dentro del mismo.
 
       .row(titulo="Mercadeo operacional")
-        .col-md-6.mb-4.mb-md-0
-          p El mercadeo operacional se especializa en el mejoramiento del producto o servicio, teniendo en cuenta todos los factores que involucran desde la fabricación del producto hasta el momento donde es adquirido por el cliente o consumidor. A partir de esto, el mercadeo operacional plantea únicamente decisiones a corto y mediano plazo, teniendo en cuenta que esto es debido a que solo busca mejorar el producto o servicio ofrecido al mercado.
+        .col-12.p-5
+          p El mercadeo operacional se especializa en el #[strong mejoramiento del producto o servicio], teniendo en cuenta todos los factores que involucran desde la fabricación del producto hasta el momento donde es adquirido por el cliente o consumidor. A partir de esto, el mercadeo operacional plantea únicamente decisiones a corto y mediano plazo, teniendo en cuenta que esto es debido a que solo busca mejorar el producto o servicio ofrecido al mercado.
 
       .row(titulo="Mercadeo emocional")
-        .col-md-6.mb-4.mb-md-0
-          p Este es uno de los tipos de mercadeo más implementados hoy en día ya que se rige en el enfoque de las diferentes sensaciones y sentimientos que el consumidor presente en el momento de adquirir un producto o servicio. El mercadeo emocional ha aumentado gradualmente, ya que años anteriores, la competencia era menor y las estrategias de mercado se enfocaban en dar solución de una necesidad básica o primordial para el ser humano. Con base en esto las empresas que utilizan el mercadeo emocional se enfocan en transmitir o generar las emociones necesarias para que el cliente adquiera determinado producto, en esta también se hace uso del marketing sensorial, donde se incorporan los sentidos de las personas tales como el gusto, el olfato, el tacto, la vista y el oído; un ejemplo de esto es cuando las marcas de prendas de vestir incorporan aromas personalizados para el establecimiento y sus productos, esto estimula en el cliente el sentido del olfato, el cual al sentir nuevamente el olor de la fragancia, identificara directamente la prenda con la marca, independientemente que esta se encuentre fuera del establecimiento.
+        .col-12.p-5
+          p Este es uno de los tipos de mercadeo más implementados hoy en día ya que se rige en el enfoque de las diferentes #[strong sensaciones y sentimientos] que el consumidor presente en el momento de adquirir un producto o servicio. El mercadeo emocional ha aumentado gradualmente, ya que años anteriores, la competencia era menor y las estrategias de mercado se enfocaban en dar solución de una necesidad básica o primordial para el ser humano. Con base en esto las empresas que utilizan el mercadeo emocional se enfocan en transmitir o generar las emociones necesarias para que el cliente adquiera determinado producto, en esta también se hace uso del marketing sensorial, donde se incorporan los sentidos de las personas tales como el gusto, el olfato, el tacto, la vista y el oído; un ejemplo de esto es cuando las marcas de prendas de vestir incorporan aromas personalizados para el establecimiento y sus productos, esto estimula en el cliente el sentido del olfato, el cual al sentir nuevamente el olor de la fragancia, identificara directamente la prenda con la marca, independientemente que esta se encuentre fuera del establecimiento.
 
       .row(titulo="Mercadeo viral")
-        .col-md-6.mb-4.mb-md-0
-          p Debido al avance de los medios de comunicación, las empresas, han logrado llegar a sus clientes a través de diversos canales de divulgación de la información. Hoy en día el canal más implementado son las redes sociales o medios digitales, donde se hace uso de elementos audiovisuales, que llaman la atención de los usuarios. El mercadeo viral se especializa, en el contenido y alcance de este, este funciona gracias a los diferentes algoritmos implementados en las diversas plataformas virtuales, logrando dar a conocer de forma masiva y espontanea, determinada publicación, permitiendo generar un alcance mayor a nuevos compradores. Es importante mencionar, que para hacer uso de este tipo de mercadeo es necesario estar al tanto de los acontecimientos que rigen las redes sociales, ya sea una noticia, audio, video, entre otros. 
+        .col-12.p-5
+          p Debido al avance de los medios de comunicación, las empresas, han logrado llegar a sus clientes a través de diversos canales de divulgación de la información. Hoy en día el canal más implementado son las redes sociales o medios digitales, donde se hace uso de elementos audiovisuales, que llaman la atención de los usuarios. El mercadeo viral se especializa, en el #[strong contenido y alcance] de este, este funciona gracias a los diferentes algoritmos implementados en las diversas plataformas virtuales, logrando dar a conocer de forma masiva y espontanea, determinada publicación, permitiendo generar un alcance mayor a nuevos compradores. Es importante mencionar, que para hacer uso de este tipo de mercadeo es necesario estar al tanto de los acontecimientos que rigen las redes sociales, ya sea una noticia, audio, video, entre otros. 
 
       .row(titulo="Mercadeo relacional")
-        .col-md-6.mb-4.mb-md-0
-          p Este tipo de mercadeo se define como aquel que logra una comunicación asertiva y reciproca entre el cliente y la empresa, teniendo en cuenta que es como un rol de confianza que se genera entre ambos. El mercadeo relacional, pretende involucrar de manera objetiva y clara los diferentes elementos que se requieren para la relación entre el vendedor y el cliente, generando un vínculo de confianza, lo cual permite estudiar y direccionar las diferentes acciones que la empresa puede tomar. Es importante mencionar que este tipo de mercadeo puede llegar a tomar un poco más de tiempo, sin embargo, es muy claro y directo especialmente frente a los que son considerados clientes potenciales, ya que permite relaciones duraderas que generan ganancias reales entre ambas partes.
+        .col-12.p-5
+          p Este tipo de mercadeo se define como aquel que logra una #[strong comunicación asertiva y reciproca] entre el cliente y la empresa, teniendo en cuenta que es como un rol de confianza que se genera entre ambos. El mercadeo relacional, pretende involucrar de manera objetiva y clara los diferentes elementos que se requieren para la relación entre el vendedor y el cliente, generando un vínculo de confianza, lo cual permite estudiar y direccionar las diferentes acciones que la empresa puede tomar. Es importante mencionar que este tipo de mercadeo puede llegar a tomar un poco más de tiempo, sin embargo, es muy claro y directo especialmente frente a los que son considerados clientes potenciales, ya que permite relaciones duraderas que generan ganancias reales entre ambas partes.
 
       .row(titulo="Mercadeo rentable")
-        .col-md-6.mb-4.mb-md-0
-          p Se caracteriza en hacer el menor uso de recursos como tiempo y dinero para el crecimiento y mejora de la empresa; lo anterior no significa que todo se realice de manera espontánea y sin estrategias específicas, todo lo contrario, este tipo de mercadeo implanta estrategias muy bien estudiadas, para lograr su objetivo de no gastar en recursos de forma innecesaria en el momento de ejecutar las estrategias.
+        .col-12.p-5
+          p Se caracteriza en hacer #[strong el menor uso de recursos como tiempo y dinero] para el crecimiento y mejora de la empresa; lo anterior no significa que todo se realice de manera espontánea y sin estrategias específicas, todo lo contrario, este tipo de mercadeo implanta estrategias muy bien estudiadas, para lograr su objetivo de no gastar en recursos de forma innecesaria en el momento de ejecutar las estrategias.
 
     .row.justify-content-center.mt-5
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.color-secundario.p-4
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img10.png')})`}"
         )
@@ -227,12 +226,12 @@
         .tarjeta.tarjeta--amarilla.p-4
           .row.justify-content-center
             .col-11.col-lg-6
-              p Conforme van pasando los años, la investigación de mercado ha sido priorizada dentro de las empresas, ya que para casi todas las industrias ya sean de fabricación, comercialización o distribución, la competencia ha aumentado exponencialmente en los últimos años, generando mayores retos para que el cliente adquiera determinado producto o servicio. La investigación de mercado permite generar herramientas de información útiles para la construcción de estrategias claras y eficaces, por esta razón se indagan de la forma más detalla cada una de las características del mercado.
+              p Conforme van pasando los años, la investigación de mercado ha sido priorizada dentro de las empresas, ya que para casi todas las industrias ya sean de fabricación, comercialización o distribución, la competencia ha aumentado exponencialmente en los últimos años, generando mayores retos para que el cliente adquiera determinado producto o servicio. #[strong La investigación de mercado permite generar herramientas de información útiles para la construcción de estrategias claras y eficaces,] por esta razón se indagan de la forma más detalla cada una de las características del mercado.
             .col-8.col-lg-6
               figure
                 img(src='@/assets/curso/temas/tema1/img11.png', alt='Texto que describa la imagen')
       .col-11.col-lg-5.mt-3
-        p La investigación de mercado no solo permite estudiar al cliente objetivo a donde se está dirigiendo la empresa, también posibilita conocer los alcances, y procesos desarrollados por otras empresas. Esta investigación permite conocer algunos temas como lo son el tipo de ventas y medios de pago, un ejemplo de esto es el uso de billeteras digitales, las cuales han venido tomando mayor fuerza en el último año; de igual forma los resultados de las investigaciones pueden establecer las principales variantes de fabricación, distribución o comercialización que están llevando a cabo las otras empresas, estableciendo posibles mejoras para la empresa investigativa. Es muy importante resaltar que se trata de una investigación de mercado y no de una competencia desleal, teniendo claro que este tipo de práctica perjudica el mercado de las demás empresas e incluso la propia, por lo cual se debe tener un significativo cuidado con la forma en cómo se obtiene y se maneja la información. 
+        p #[strong La investigación de mercado no solo permite estudiar al cliente objetivo a donde se está dirigiendo la empresa, también posibilita conocer los alcances, y procesos desarrollados por otras empresas.] Esta investigación permite conocer algunos temas como lo son el tipo de ventas y medios de pago, un ejemplo de esto es el uso de billeteras digitales, las cuales han venido tomando mayor fuerza en el último año; de igual forma los resultados de las investigaciones pueden establecer las principales variantes de fabricación, distribución o comercialización que están llevando a cabo las otras empresas, estableciendo posibles mejoras para la empresa investigativa. Es muy importante resaltar que se trata de una investigación de mercado y no de una competencia desleal, teniendo claro que este tipo de práctica perjudica el mercado de las demás empresas e incluso la propia, por lo cual se debe tener un significativo cuidado con la forma en cómo se obtiene y se maneja la información. 
 
 
 </template>

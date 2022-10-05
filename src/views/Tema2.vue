@@ -15,7 +15,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img1.png', alt='Texto que describa la imagen').tema2-img-1
             .col-11.col-lg-8
-              p Generalmente las empresas deben guiar sus estrategias de acuerdo con los estándares y necesidades que deseen solventar en un grupo objetivo, teniendo claro esto, se puede definir a un grupo objetivo como el conjunto de personas que comparten características específicas dentro de las cuales se encuentra una necesidad a satisfacer.
+              p #[strong Generalmente las empresas deben guiar sus estrategias de acuerdo con los estándares y necesidades que deseen solventar en un grupo objetivo, teniendo claro esto, se puede definir a un grupo objetivo como el conjunto de personas que comparten características específicas dentro de las cuales se encuentra una necesidad a satisfacer.]
 
     separador
 
@@ -24,15 +24,13 @@
     .titulo-segundo.color-acento-contenido.mt-5
       h2 2.1 Segmentación
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-secundario.p-2.p-sm-4.p-md-5
       .bloque-texto-tema2__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.png')})`}"
       )
-      .bloque-texto-tema2__texto.p-4
-        p.mb-0 La definición del grupo objetivo para una empresa no es suficiente para orientar todas sus estrategias para el crecimiento de esta, por lo cual requieren desarrollar la segmentación del mercado, esta posibilita las estrategias de forma orientada y clara para el desarrollo de las mejores metodologías enfocadas en el mercado.
-        br
-        br
-        p La segmentación clasifica de forma detallada los diferentes componentes que pueden afectar directamente a la empresa, de acuerdo con la industria que esta pertenezca y el tipo de consumo de esta, es decir que de acuerdo con los criterios de demanda se podrá realizar una segmentación objetiva; teniendo en cuenta lo anterior se pueden considerar diferentes tipos de segmentación:
+      .bloque-texto-tema2__texto.p-3
+        p La definición del grupo objetivo para una empresa no es suficiente para orientar todas sus estrategias para el crecimiento de esta, por lo cual requieren desarrollar la segmentación del mercado,#[strong esta posibilita las estrategias de forma orientada y clara para el desarrollo de las mejores metodologías enfocadas en el mercado.]
+        p.mt-3 La segmentación clasifica de forma detallada los diferentes componentes que pueden afectar directamente a la empresa, de acuerdo con la industria que esta pertenezca y el tipo de consumo de esta, es decir que de acuerdo con los criterios de demanda se podrá realizar una segmentación objetiva; teniendo en cuenta lo anterior se pueden considerar diferentes tipos de segmentación:
 
     .row.justify-content-center.mt-5
       .col-6.col-lg-4
@@ -50,19 +48,19 @@
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Edad
+                | #[strong Edad]
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Genero
+                | #[strong Genero]
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Nacionalidad
+                | #[strong Nacionalidad]
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Ocupación
+                | #[strong Ocupación]
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Educación 
+                | #[strong Educación] 
             p Las características mencionadas anteriormente es la información básica y relevante implementada para llevar a cabo la segmentación demográfica, teniendo en cuenta que esta facilitare el proceso de desarrollo de estrategias de mercadeo, distribución y comercialización de bienes o productos, generando beneficios óptimos para las empresas y el cliente. (Moncayo, M. 1998).
 
           .row(titulo="Segmentación psicográfica")
@@ -70,30 +68,30 @@
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Valores
+                | #[strong Valores]
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Actividades 
+                | #[strong Actividades] 
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Religión o creencia
+                | #[strong Religión o creencia]
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Pasatiempos
+                | #[strong Pasatiempos]
               li 
                 i.fas.fa-angle-right.txt--azul
-                | Motivaciones
+                | #[strong Motivaciones]
           .row(titulo="Segmentación conductual")
             p Este tipo de segmentación se busca relacionar directamente con el comportamiento que tiene el cliente en el momento de adquirir un producto o servicio, esto ya sea antes, durante y después de la compra. Esto sirve para comprometerá la empresa y determinar las características de mejora de los elementos que fabrican. Entre las características que este tipo de segmentación estudia se encuentran:
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--azul
-                | La frecuencia de compra del producto o servicio
+                | #[strong La frecuencia de compra del producto o servicio]
               li 
                 i.fas.fa-angle-right.txt--azul
-                | La cantidad de productos adquiridos 
+                | #[strong La cantidad de productos adquiridos] 
       
-      .row.justify-content-center.mt-5
+      .row.justify-content-center.mt-5.mb-5
         .row
           .col-12.col-lg-9
             .row.justify-content-center
@@ -136,6 +134,8 @@
             figure
               img(src='@/assets/curso/temas/tema2/img6.png', alt='Texto que describa la imagen')
 
+    separador
+
     #t_2_2
 
     .titulo-segundo.color-acento-contenido.mt-5
@@ -149,7 +149,7 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen').tema2-img-7
             .col-11.col-lg-8
-              p Como su nombre lo indica la población objetivo es aquel en donde se va a concentrar la empresa para direccionar todas las actividades, por lo tanto, esto indica que será el público por encuestar para validar la toma de decisiones de la empresa. De acuerdo con el tipo de producto o servicio al que se enfoque la empresa, será el número de personas pertenecientes al público objetivo, por lo tanto, este puede ser de un gran tamaño, teniendo en cuenta que si se encuestara a todos los individuos de este grupo los recursos invertidos sean muy altos, la empresa deberá establecer un mínimo de encuestas a realizar, para garantizar los resultados con mayor veracidad para el estudio de mercado. De acuerdo con lo anterior es importante resaltar que el público a encuestar deberá compartir los rasgos más similares posibles, en cuanto a características como la edad, estrato socioeconómico, entre otros; lo anterior permitirá resultados más claros y estables.
+              p Como su nombre lo indica la población objetivo es aquel en donde se va a concentrar la empresa para direccionar todas las actividades, por lo tanto, esto indica que será el público por encuestar para validar la #[strong toma de decisiones] de la empresa. De acuerdo con el tipo de producto o servicio al que se enfoque la empresa, será el número de personas pertenecientes al público objetivo, por lo tanto, este puede ser de un gran tamaño, teniendo en cuenta que si se encuestara a todos los individuos de este grupo los recursos invertidos sean muy altos, la empresa deberá establecer un mínimo de encuestas a realizar, para garantizar los resultados con mayor veracidad para el estudio de mercado. De acuerdo con lo anterior es importante resaltar que el #[strong público a encuestar deberá compartir los rasgos más similares posibles,] en cuanto a características como la edad, estrato socioeconómico, entre otros; lo anterior permitirá resultados más claros y estables.
 
     .row.mt-5.justify-content-center
       b.text-center La posibilidad que tienen las empresas al poder encuestar a un público en específico se representa en varios puntos, algunos de estos son: 
@@ -214,7 +214,7 @@
 
     .row.mb-5.justify-content-center
       .col-lg-9
-        p Un plan de recolección de datos es aquel PROCESO que se utiliza para la recopilación y análisis de información relevante para el desarrollo de los diferentes procesos que deberá ejecutar una empresa, obteniendo beneficios y estrategias significativas para el sostenimiento y mejoramiento de esta.
+        p Un plan de recolección de datos es aquel PROCESO que se utiliza para la recopilación y análisis de información relevante para el desarrollo de los diferentes procesos que deberá ejecutar una empresa, #[strong obteniendo beneficios y estrategias significativas para el sostenimiento y mejoramiento de esta.]
         .bloque-texto-d.color-secundario.p-3
               .bloque-texto-d__texto
                 .row.display-flex

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Segmentos de mercado <br>y grupo objetivo',
     descripcionCurso:
-      'La segmentación de mercado es una herramienta por medio de la cual es posible identificar las características de una población objetiva, a la cual se buscará encuestar para recolectar información estratégica para la organización.<br><br>En este componente formativo se plantearán los conceptos para segmentar y establecer grupos objetivos, para continuar con actividades prácticas con el fin de aplicar la fundamentación teórica adquirida',
+      'La segmentación de mercado es una herramienta por medio de la cual es posible identificar las características de una población objetiva, a la cual se buscará encuestar para recolectar información estratégica para la organización, encontrará como se plantea los conceptos para segmentar y establecer grupos objetivos, para continuar con actividades prácticas con el fin de aplicar la fundamentación teórica adquirida',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -76,7 +76,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Mercadeo',
+            titulo: 'Segmentación',
             hash: 't_2_1',
           },
           {
@@ -130,45 +130,44 @@ export default {
   },
   complementario: [
     {
-      tema: 'Evolución concepto de mercadeo.',
+      tema: 'Mercado',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). <i>Evolución concepto de mercadeo.<i> YouTube. ',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Evolución concepto de mercadeo</em> (video). YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/DgLQ5jA1pIw',
     },
     {
-      tema: 'Identificación del mercado y población objeto. ',
+      tema: 'Mercado',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). <i>Identificación del mercado y población objeto.<i> YouTube. ',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Identificación del mercado y población objeto</em> (video). YouTube. ',
       tipo: 'Video',
       descarga: 'https://www.youtube.com/watch?v=8talMCmrZ5Q',
     },
     {
-      tema: 'Investigación de mercados.',
+      tema: 'Mercado',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). <i>Investigación de mercados.<i> YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Investigación de mercados</em> (video). YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=No9yQXsjmXM',
     },
     {
-      tema:
-        '¿Qué es mercadeo verde (Green Marketing)? Ejemplos de mercadeo verde en el mundo.',
+      tema: 'Mercado',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). <i>¿Qué es mercadeo verde (Green Marketing)? Ejemplos de mercadeo verde en el mundo.<i> YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>¿Qué es mercadeo verde (Green Marketing)? Ejemplos de mercadeo verde en el mundo</em> (video). YouTube.',
       tipo: 'Video',
       descarga: 'https://www.youtube.com/watch?v=PbdVwChb71Q',
     },
     {
-      tema: 'Recolección de datos.',
+      tema: 'Grupo objetivo',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). <i>Recolección de datos.<i> YouTube',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Recolección de datos</em> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=TinhDQv6UH8&t=29s',
     },
     {
-      tema: 'Segmentación del mercado.',
+      tema: 'Segmentación',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA (2022). <i>Segmentación del mercado.<i> YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Segmentación del mercado</em> (video). YouTube.',
       tipo: 'Video',
       descarga: 'https://www.youtube.com/watch?v=wFqLQDbb03g',
     },
@@ -190,7 +189,7 @@ export default {
         'estos son considerados como la información específica y relevante (cualitativa o cuantitativa) arrojada por un proceso investigativo, para su posterior análisis.  ',
     },
     {
-      termino: 'Estrategia de Estrategia de mercadeo ',
+      termino: 'Estrategia de mercadeo',
       significado:
         'son procesos o acciones específicas desarrolladas por las empresas para el cumplimiento de un objetivo previamente planteado por la misma. ',
     },
@@ -223,17 +222,22 @@ export default {
     },
     {
       referencia:
-        'Libro: Hoyer, W. D., Pieters, R., Maclnnis, D. J. (2018). <i>Comportamiento del consumidor<i> [Ebook]. Cengage Learning. ',
+        'Grasso, L. (2006). <em>Encuestas: elementos para su diseño y Análisis</em>. Encuentro Grupo Editor.',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=2718',
+    },
+    {
+      referencia:
+        'Hoyer, W. D., Pieters, R. & Maclnnis, D. J. (2018). <em>Comportamiento del consumidor</em>. Cengage Learning.',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7493',
     },
     {
       referencia:
-        'Libro: Kerin, R. A., Hartley, S. W. (2019). <i>Marketing<i> [Ebook]. McGraw-Hill. ',
+        'Kerin, R. A. y Hartley, S. W. (2019). <em>Marketin.g</em> McGraw-Hill.',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9915',
     },
     {
       referencia:
-        'Libro: Sanabria Araya, F. (2018). <i>Investigación de mercados: un enfoque práctico y descriptivo<i> [Ebook]. Ecoe Ediciones. ',
+        'Sanabria Araya, F. (2018). <em>Investigación de mercados: un enfoque práctico y descriptivo</em>. Ecoe Ediciones.',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7409',
     },
   ],

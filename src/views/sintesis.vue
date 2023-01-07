@@ -6,11 +6,11 @@
 
     .row.justify-content-center
       .col-lg-10.mb-5
-        .titulo-sexto.bgr-titulo.mt-3
+        .titulo-sexto.txt--violeta.mt-3
           h2 Procesamiento de Información de Mercado
           p Síntesis: Segmentos de mercado y grupo objetivo
 
-        p.mt-5 A continuación, se presenta la diagramación en la construcción del conocimiento para el componente de formación, en la cual se puede observar el entrelazamiento de las temáticas para generar una segmentación del mercado objetivo 
+        p.mt-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mt-5

@@ -141,7 +141,7 @@ export default {
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Identificación del mercado y población objeto</em> (video). YouTube. ',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=8talMCmrZ5Q',
+      link: 'https://www.youtube.com/watch?v=8talMCmrZ5Q',
     },
     {
       tema: 'Mercado',
@@ -155,7 +155,7 @@ export default {
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>¿Qué es mercadeo verde (Green Marketing)? Ejemplos de mercadeo verde en el mundo</em> (video). YouTube.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=PbdVwChb71Q',
+      link: 'https://www.youtube.com/watch?v=PbdVwChb71Q',
     },
     {
       tema: 'Grupo objetivo',
@@ -169,7 +169,7 @@ export default {
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Segmentación del mercado</em> (video). YouTube.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=wFqLQDbb03g',
+      link: 'https://www.youtube.com/watch?v=wFqLQDbb03g',
     },
   ],
   glosario: [

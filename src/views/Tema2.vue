@@ -64,7 +64,7 @@
               li 
                 i.fas.fa-angle-right.txt--violeta
                 | Educación 
-            p Las características mencionadas anteriormente es la información básica y relevante implementada para llevar a cabo la segmentación demográfica, teniendo en cuenta que esta facilitare el proceso de desarrollo de estrategias de mercadeo, distribución y comercialización de bienes o productos, generando beneficios óptimos para las empresas y el cliente. (Moncayo, M. 1998).
+            p Las características mencionadas anteriormente es la información básica y relevante implementada para llevar a cabo la segmentación demográfica, teniendo en cuenta que esta facilitare el proceso de desarrollo de estrategias de mercadeo, distribución y comercialización de bienes o productos, generando beneficios óptimos para las empresas y el cliente.
 
           .row(titulo="Segmentación psicográfica")
             p Como infiere su nombre, esta se enfoca en los #[b aspectos psicológicos] del ser humano, esto teniendo en cuenta que solo se debe relacionar directamente en el grupo objetivo de las empresas, por lo que se considera uno de los tipos de segmentación más útiles en los últimos tiempos, ya que a través del factor humano es sencillo empatizar con el cliente, teniendo en cuenta que existe una afinidad entre los enfoques del consumidor con el de la empresa. Dentro de las principales características que utiliza este estudio se encuentran: 

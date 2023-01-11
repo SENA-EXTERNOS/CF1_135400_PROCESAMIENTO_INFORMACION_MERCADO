@@ -13,7 +13,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Texto que describa la imagen')
       .col-lg-8
-        p Dentro de las principales características que definen el mercado de hoy en día se encuentra la segmentación de mercado, esta ha generado que las empresas enfoquen sus recursos y esfuerzos en un público específico. La segmentación de mercado permite identificar y determinar el nicho de mercado al que la empresa deberá apuntar, para el crecimiento y sostenimiento de estas. 
+        p Dentro de las principales características que definen el mercado de hoy en día se encuentra la segmentación de mercado, esta ha generado que las empresas enfoquen sus recursos y esfuerzos en un público específico. La segmentación de mercado permite identificar y determinar el nicho de mercado al que la empresa deberá apuntar, para el crecimiento y sostenimiento de estas. Para ampliar la información, lo invitamos a ver el siguiente video.
 
     .row.mt-5.mb-5
           figure
@@ -35,7 +35,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2.png')})`}")
           .bloque-texto-g__texto.p-3.text-small
-            p.mb-0 Se puede definir mercadeo como una ACCIÓN, que aplica estrategias para dar solución a una #[b necesidad especifica] de un determinado grupo de personas; el objetivo del mercadeo es desarrollar un producto o servicio que se encuentre acorde con la respuesta asertiva de la necesidad especifica de este #[b nicho de mercado]. 
+            p.mb-0 Se puede definir mercadeo como una ACCIÓN, que aplica estrategias para dar solución a una #[b necesidad específica] de un determinado grupo de personas; el objetivo del mercadeo es desarrollar un producto o servicio que se encuentre acorde con la respuesta asertiva de la necesidad específica de este #[b nicho de mercado]. 
     
     .row.justify-content-center
       .col-lg-8
@@ -45,7 +45,7 @@
 
         .bloque-texto-f.color-bloque-texto
           .bloque-texto-f__texto
-            p Teniendo en cuenta lo anterior, al interpretar el objetivo del mercadeo, se puede inferir que el mercadeo tiene como objetivo brindar un producto o servicio a un cliente especifico que solvente una necesidad particular, no obstante, para llegar a dicho resultado, se debe tener en cuenta un proceso de exploración, que permita determinar los mejores objetivos para llevar a cabo esta actividad. 
+            p Teniendo en cuenta lo anterior, al interpretar el objetivo del mercadeo, se puede inferir que el mercadeo tiene como objetivo brindar un producto o servicio a un cliente específico que solvente una necesidad particular, no obstante, para llegar a dicho resultado, se debe tener en cuenta un proceso de exploración, que permita determinar los mejores objetivos para llevar a cabo esta actividad. 
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img3.png', alt='Texto que describa la imagen')
@@ -57,12 +57,12 @@
           .col-lg-5
             img.img-a(src='@/assets/curso/temas/tema1/img4.png', alt='Texto que describa la imagen')
           .col-lg-7.p-4
-            p.mb-0 No existe una formula correcta en la que se puedan establecer los objetivos para llevar a cabo el mercadeo, sin embargo, se han desarrollado una variedad de posibles pasos a desarrollar como lo es la <strong>técnica #[i SMART]</strong>, la cual es muy utilizada en el medio, en donde cada una de sus siglas en ingles corresponden a un elemento especifico:
+            p.mb-0 No existe una formula correcta en la que se puedan establecer los objetivos para llevar a cabo el mercadeo, sin embargo, se han desarrollado una variedad de posibles pasos a desarrollar como lo es la <strong>técnica #[i SMART]</strong>, la cual es muy utilizada en el medio, en donde cada una de sus siglas en inglés corresponden a un elemento específico:
 
     
 
     .titulo-sexto.color-acento-contenido.mt-5
-      t #[strong Figura 1.] 
+      t #[strong Figura 1] 
       <br><em>Los 5 criterios de los objetivos SMART</em> 
 
    
@@ -73,7 +73,7 @@
 
 
       .tarjeta.bgr-tarjeta.p-3.text-white(x="43%" y="19%" numero="+")
-        h4.mb-2 S-#[i Specific] (especifico)
+        h4.mb-2 S-#[i Specific] (específico)
         p Este ítem corresponde a ser lo más preciso sobre las diferentes metas a las que se quieren llegar, de igual forma se caracteriza en establecer los elementos de estudio lo más enfocados posibles, como lo son el nicho de mercado, la necesidad a solventar por el producto o servicio, los elementos de comunicación, los recursos a implementar (tiempo, dinero, entre otros), entre otros.
 
       .tarjeta.bgr-tarjeta.p-3.text-white(x="54%" y="77%" numero="+")

@@ -8,8 +8,8 @@
           i.fas.fa-puzzle-piece
       h1 Actividad didáctica
 
-    .titulo-segundo.color-primario.mt-5
-      h2 Arrastrar y soltar
+    .titulo-segundo.color-acento-contenido.mt-5
+      h2 Segmentos de mercado y grupo objetivo
   
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
@@ -17,7 +17,10 @@
           figure
             img(src="@/assets/template/arrastrar-soltar.png", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9.mt-5
-        p.mb-4 Apreciado participante a continuación encontrará una actividad didáctica para afianzar los conceptos y aprendizajes del componente de formación.
+        p Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo.
+
+        p.mb-4 De acuerdo con la definición planteada en la columna izquierda, arrastre cada término al lugar que considere correcto de la columna derecha.
+
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

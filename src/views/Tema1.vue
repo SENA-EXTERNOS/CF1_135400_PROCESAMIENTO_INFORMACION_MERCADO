@@ -12,7 +12,7 @@
       .col-6.col-lg-2
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Texto que describa la imagen')
-      .col-lg-8
+      .col-lg-8.j
         p Dentro de las principales características que definen el mercado de hoy en día se encuentra la segmentación de mercado, esta ha generado que las empresas enfoquen sus recursos y esfuerzos en un público específico. La segmentación de mercado permite identificar y determinar el nicho de mercado al que la empresa deberá apuntar, para el crecimiento y sostenimiento de estas. Para ampliar la información, lo invitamos a ver el siguiente video.
 
     .row.mt-5.mb-5
@@ -34,7 +34,7 @@
         .bloque-texto-g.color-secundario.p-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2.png')})`}")
-          .bloque-texto-g__texto.p-3.text-small
+          .bloque-texto-g__texto.p-3
             p.mb-0 Se puede definir mercadeo como una ACCIÓN, que aplica estrategias para dar solución a una #[b necesidad específica] de un determinado grupo de personas; el objetivo del mercadeo es desarrollar un producto o servicio que se encuentre acorde con la respuesta asertiva de la necesidad específica de este #[b nicho de mercado]. 
     
     .row.justify-content-center
@@ -143,15 +143,13 @@
 
     .row.justify-content-center.mt-5.mb-5
       .col-lg-10
-        .bg_3
-          .row
-            .col-3
-              figure
-                img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen').img11-tema1 
+        .row.justify-content-center
+          .col-lg-9.j.bg_3.p-4
+            P.mb-0 El mercadeo es un concepto que ha ido evolucionado poco a poco, esto ha generado que la tipología de este evolucione y varie de acuerdo con las características que se le atribuyan, no obstante, entre la tipología más conocida se encuentran:
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')
 
-            .col-12.col-lg-9.mt-2.p-4
-              P.mb-0 El mercadeo es un concepto ha ido evolucionado poco a poco, esto ha generado que la tipología de este evolucione y varie de acuerdo con las características que se le atribuyan, no obstante, entre la tipología más conocida se encuentran: 
- 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--amarilla").p-3
       .row(titulo="Mercadeo analítico")
         .col-12.p-5
@@ -188,7 +186,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img10.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Las estrategias de mercado mencionadas son solo algunas de las utilizadas, existen otras que se implementan las empresas de acuerdo con los resultados obtenidos durante el proceso de mercadeo. Es importante resaltar que la mayoría de las estrategias o tipos de mercado se pueden utilizar de forma individual o en conjunto, teniendo claro que el objetivo siempre sea el mismo. 
+            p.mb-0 Las estrategias de mercado mencionadas son solo algunas de las utilizadas, existen otras que implementan las empresas de acuerdo con los resultados obtenidos durante el proceso de mercadeo. Es importante resaltar que la mayoría de las estrategias o tipos de mercado se pueden utilizar de forma individual o en conjunto, teniendo claro que el objetivo siempre sea el mismo. 
 
     h3.mb-5 Investigación de mercados
 

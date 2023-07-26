@@ -47,7 +47,7 @@
             
 
           .row(titulo="Segmentación demográfica")
-            p La segmentación demográfica se refiera a todo tipo de identificación de las #[b características básicas] y de fácil acceso, ya que consta de datos generales respecto al grupo objetivo de la marca. Entre sus principales características se evaluar se encuentran: 
+            p La segmentación demográfica se refiera a todo tipo de identificación de las #[b características básicas] y de fácil acceso, ya que consta de datos generales respecto al grupo objetivo de la marca. Entre sus principales características a evaluar se encuentran: 
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--violeta
@@ -64,7 +64,7 @@
               li 
                 i.fas.fa-angle-right.txt--violeta
                 | Educación 
-            p Las características mencionadas anteriormente es la información básica y relevante implementada para llevar a cabo la segmentación demográfica, teniendo en cuenta que esta facilitare el proceso de desarrollo de estrategias de mercadeo, distribución y comercialización de bienes o productos, generando beneficios óptimos para las empresas y el cliente.
+            p Las características mencionadas anteriormente es la información básica y relevante implementada para llevar a cabo la segmentación demográfica, teniendo en cuenta que esta facilitara el proceso de desarrollo de estrategias de mercadeo, distribución y comercialización de bienes o productos, generando beneficios óptimos para las empresas y el cliente.
 
           .row(titulo="Segmentación psicográfica")
             p Como infiere su nombre, esta se enfoca en los #[b aspectos psicológicos] del ser humano, esto teniendo en cuenta que solo se debe relacionar directamente en el grupo objetivo de las empresas, por lo que se considera uno de los tipos de segmentación más útiles en los últimos tiempos, ya que a través del factor humano es sencillo empatizar con el cliente, teniendo en cuenta que existe una afinidad entre los enfoques del consumidor con el de la empresa. Dentro de las principales características que utiliza este estudio se encuentran: 
@@ -85,7 +85,7 @@
                 i.fas.fa-angle-right.txt--violeta
                 | Motivaciones
           .row(titulo="Segmentación conductual")
-            p Este tipo de segmentación se busca relacionar directamente con el #[strong comportamiento que tiene el cliente en el momento de adquirir un producto o servicio], esto ya sea antes, durante y después de la compra. Esto sirve para comprometerá la empresa y determinar las características de mejora de los elementos que fabrican. Entre las características que este tipo de segmentación estudia se encuentran:
+            p Este tipo de segmentación busca relacionar directamente el #[strong comportamiento que tiene el cliente en el momento de adquirir un producto o servicio], esto ya sea antes, durante y después de la compra. Esto sirve para comprometer la empresa y determinar las características de mejora de los elementos que fabrican. Entre las características que este tipo de segmentación estudia se encuentran:
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--violeta
@@ -167,13 +167,13 @@
       .col-7.col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen')
-      .col-11.col-lg-8
-        p Como su nombre lo indica la población objetivo es aquel en donde se va a concentrar la empresa para direccionar todas las actividades, por lo tanto, esto indica que será el público por encuestar para validar la #[strong toma de decisiones] de la empresa. De acuerdo con el tipo de producto o servicio al que se enfoque la empresa, será el número de personas pertenecientes al público objetivo, por lo tanto, este puede ser de un gran tamaño, teniendo en cuenta que si se encuestara a todos los individuos de este grupo los recursos invertidos sean muy altos, la empresa deberá establecer un mínimo de encuestas a realizar, para garantizar los resultados con mayor veracidad para el estudio de mercado. De acuerdo con lo anterior es importante resaltar que el #[strong público a encuestar deberá compartir los rasgos más similares posibles,] en cuanto a características como la edad, estrato socioeconómico, entre otros; lo anterior permitirá resultados más claros y estables.
+      .col-11.col-lg-8.j
+        p Como su nombre lo indica la población objetivo es aquel en donde se va a concentrar la empresa para direccionar todas las actividades, por lo tanto, esto indica que será el público por encuestar quien validará la #[b toma de decisiones] de la empresa. De acuerdo con el tipo de producto o servicio al que se enfoque la empresa, será el número de personas pertenecientes al público objetivo, por lo tanto, este puede ser de un gran tamaño, teniendo en cuenta que si se encuestara a todos los individuos de este grupo los recursos invertidos sean muy altos, la empresa deberá establecer un mínimo de encuestas a realizar, para garantizar los resultados con mayor veracidad para el estudio de mercado. De acuerdo con lo anterior es importante resaltar que el #[strong público a encuestar deberá compartir los rasgos más similares posibles,] en cuanto a características como la edad, estrato socioeconómico, entre otros; lo anterior permitirá resultados más claros y estables.
 
     p.mb-5 La posibilidad que tienen las empresas al poder encuestar a un público en específico se representa en varios puntos, algunos de estos son: 
 
 
-    .row.mb-5.align-items-stretch.d-flex.h-100.justify-content-center.text-small
+    .row.mb-5.align-items-stretch.d-flex.h-100.justify-content-center
       .col-lg-6.col-xl-2
         .tarjeta.tarjeta--gris2.px-2.py-4.h-100
           .row.justify-content-center.mb-3

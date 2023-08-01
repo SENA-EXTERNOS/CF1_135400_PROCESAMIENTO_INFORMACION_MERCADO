@@ -145,7 +145,7 @@
       .col-lg-10
         .row.justify-content-center
           .col-lg-9.j.bg_3.p-4
-            P.mb-0 El mercadeo es un concepto que ha ido evolucionado poco a poco, esto ha generado que la tipología de este evolucione y varie de acuerdo con las características que se le atribuyan, no obstante, entre la tipología más conocida se encuentran:
+            P.mb-0 El mercadeo es un concepto que ha ido evolucionando poco a poco, esto ha generado que la tipología de este evolucione y varie de acuerdo con las características que se le atribuyan, no obstante, entre la tipología más conocida se encuentran:
           .col-lg-auto
             figure
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Texto que describa la imagen')

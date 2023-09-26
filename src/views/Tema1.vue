@@ -157,7 +157,7 @@
 
       .row(titulo="Mercadeo estratégico")
         .col-12.p-5
-          p.mb-0 Al igual que el mercadeo analítico este implementa el #[b análisis de mercado] con el fin de generar estrategias objetivas y certeras sobre los diferentes procesos que se podrán implementar para el crecimiento de la empresa, teniendo en cuentas las variantes que se pueda ejecutar dentro del mismo.
+          p.mb-0 Al igual que el mercadeo analítico, este implementa el #[b análisis de mercado] con el fin de generar estrategias objetivas y certeras sobre los diferentes procesos que se podrán implementar para el crecimiento de la empresa, teniendo en cuentas las variantes que se pueda ejecutar dentro del mismo.
 
       .row(titulo="Mercadeo operacional")
         .col-12.p-5

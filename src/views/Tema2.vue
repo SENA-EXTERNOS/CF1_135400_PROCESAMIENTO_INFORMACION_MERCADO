@@ -30,7 +30,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.png')})`}"
           )
           .bloque-texto-tema2__texto.p-3
-            p.mb-0 La segmentación clasifica de forma detallada los diferentes componentes que pueden afectar directamente a la empresa, de acuerdo con la industria que esta pertenezca y el tipo de consumo de esta, es decir que de acuerdo con los criterios de demanda se podrá realizar una segmentación objetiva; teniendo en cuenta lo anterior se pueden considerar diferentes tipos de segmentación.
+            p.mb-0 La segmentación clasifica de forma detallada los diferentes componentes que pueden afectar directamente a la empresa, de acuerdo con la industria que esta pertenezca y el tipo de consumo, es decir que de acuerdo con los criterios de demanda se podrá realizar una segmentación objetiva; teniendo en cuenta lo anterior se pueden considerar diferentes tipos de segmentación.
 
     p La definición del grupo objetivo para una empresa no es suficiente para orientar todas sus estrategias para el crecimiento de esta, por lo cual requieren desarrollar la segmentación del mercado, esta #[b posibilita las estrategias de forma orientada y clara] para el desarrollo de las mejores metodologías enfocadas en el mercado: 
 
@@ -123,7 +123,7 @@
                   img.img-b(src='@/assets/curso/temas/tema2/img5.png' alt='AvatarTop')
                 .tarjeta.bg_5
                   .px-5.py-4
-                    p.mb-0 #[b Establecer vínculos directos con los clientes:] Ya que se conocen el segmento específico al cual se van a direccionar la empresa, se permitirá relacionarse directamente con los mismos, lo cual generará un plus en cuanto a la forma de comunicarse con el cliente, generando vínculos de fidelización con los mismos. 
+                    p.mb-0 #[b Establecer vínculos directos con los clientes:] Ya que se conoce el segmento específico al cual se van a direccionar la empresa, se permitirá relacionarse directamente con los mismos, lo cual generará un plus en cuanto a la forma de comunicarse con el cliente, generando vínculos de fidelización con los mismos. 
             
             .row.img-c          
               .col-lg-4

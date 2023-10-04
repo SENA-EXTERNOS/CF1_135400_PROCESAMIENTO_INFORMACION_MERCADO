@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Segmentos de mercado <br>y grupo objetivo',
     descripcionCurso:
-      'La segmentación de mercado es una herramienta por medio de la cual es posible identificar las características de una población objetiva, a la cual se buscará encuestar para recolectar información estratégica para la organización, encontrará como se plantea los conceptos para segmentar y establecer grupos objetivos, para continuar con actividades prácticas con el fin de aplicar la fundamentación teórica adquirida',
+      'La segmentación de mercado es una herramienta por medio de la cual es posible identificar las características de una población objetiva, a la cual se buscará encuestar para recolectar información estratégica para la organización, encontrará como se plantea los conceptos para segmentar y establecer grupos objetivos, para continuar con actividades prácticas con el fin de aplicar la fundamentación teórica adquirida.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -196,7 +196,7 @@ export default {
     {
       termino: 'Fuentes de Información',
       significado:
-        'estos se refieren a los instrumentos que proporciona información relevante sobre temas específicos, estas pueden ser de acceso gratuito o de pago',
+        'estos se refieren a los instrumentos que proporciona información relevante sobre temas específicos, estas pueden ser de acceso gratuito o de pago.',
     },
     {
       termino: 'Rentabilidad',

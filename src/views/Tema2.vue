@@ -85,7 +85,7 @@
                 i.fas.fa-angle-right.txt--violeta
                 | Motivaciones
           .row(titulo="Segmentación conductual")
-            p Este tipo de segmentación busca relacionar directamente el #[strong comportamiento que tiene el cliente en el momento de adquirir un producto o servicio], esto ya sea antes, durante y después de la compra. Esto sirve para comprometer la empresa y determinar las características de mejora de los elementos que fabrican. Entre las características que este tipo de segmentación estudia se encuentran:
+            p Este tipo de segmentación busca relacionar directamente el #[strong comportamiento que tiene el cliente en el momento de adquirir un producto o servicio], ya sea antes, durante y después de la compra. Esto sirve para comprometer la empresa y determinar las características de mejora de los elementos que fabrican. Entre las características que este tipo de segmentación estudia se encuentran:
             ul.lista-ul.mb-4
               li 
                 i.fas.fa-angle-right.txt--violeta
@@ -123,7 +123,7 @@
                   img.img-b(src='@/assets/curso/temas/tema2/img5.png' alt='AvatarTop')
                 .tarjeta.bg_5
                   .px-5.py-4
-                    p.mb-0 #[b Establecer vínculos directos con los clientes:] Ya que se conoce el segmento específico al cual se van a direccionar la empresa, se permitirá relacionarse directamente con los mismos, lo cual generará un plus en cuanto a la forma de comunicarse con el cliente, generando vínculos de fidelización con los mismos. 
+                    p.mb-0 #[b Establecer vínculos directos con los clientes:] Teniendo en cuenta que se conoce el segmento específico al cual se van a direccionar la empresa, se permitirá relacionarse directamente con los mismos, lo cual generará un plus en cuanto a la forma de comunicarse con el cliente, generando vínculos de fidelización con los mismos. 
             
             .row.img-c          
               .col-lg-4
@@ -222,7 +222,7 @@
         p Un plan de recolección de datos es aquel PROCESO que se utiliza para la recopilación y análisis de información relevante para el desarrollo de los diferentes procesos que deberá ejecutar una empresa, obteniendo beneficios y estrategias significativas para el sostenimiento y mejoramiento de esta.
 
         .cajon.color-acento-botones.p-3.mb-3
-          p.mb-0 Hoy en día la recolección de información sobre los diferentes entes que afectan el desarrollo de estrategias toma un papel primordial para el direccionamiento de la empresa, por lo que muchas, han decidido implementar sistemas especiales para la recolección de estos datos, los cuales en su mayoría son digitales, facilitando los recursos implementados y minorizando en errores, de igual forma esto permite disminuir el tiempo implementado para el estudio de datos, ya que los sistemas digitales facilitan el desarrollo de análisis de forma rápida y segura. 
+          p.mb-0 Hoy en día la recolección de información sobre los diferentes actores que afectan el desarrollo de estrategias, toma un papel primordial para el direccionamiento de la empresa, por lo que muchas, han decidido implementar sistemas especiales para la recolección de estos datos, los cuales en su mayoría son digitales, facilitando los recursos implementados y minorizando en errores, de igual forma esto permite disminuir el tiempo implementado para el estudio de datos, teniendo en cuenta, que los sistemas digitales facilitan el desarrollo de análisis de forma rápida y segura. 
 
         p Para la recolección de datos es necesario incluir diferentes elementos que certifiquen un buen proceso, entre los que se encuentran la confiabilidad, la validez y la objetividad. La confiabilidad indica la capacidad que tienen los elementos de recolección de datos, para que funcionen de forma adecuada y precisa, durante y después del proceso; la validez garantiza que los elementos implicados dentro del proceso sean verídicos y no falsos frente al adecuado manejo del procedimiento. Por último, la objetividad permite que el objeto de estudio sea coherente respecto a los diferentes entes implicados, como lo son el público por encuestar, y las preguntas o información a obtener sea relevante para el desarrollo de la actividad. 
       .col-lg-4

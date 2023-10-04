@@ -106,7 +106,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img7.png', alt='Texto que describa la imagen')
           .col-11.col-lg-9
-            p La evolución del mercado ha permitido grandes beneficios en todas las empresas que hacen uso de este, desde la más grande a la más pequeña. Está claro que los medios digitales son los mayores precursores para la utilización de esta, por lo que se podría inferir que sus mayores beneficios son gracias al manejo de herramientas tecnológicas, algunos de estos beneficios son: 
+            p La evolución del mercado ha permitido grandes beneficios en todas las empresas que hacen uso de esta técnica, desde la más grande a la más pequeña. Está claro que los medios digitales son los mayores precursores para la utilización del SMART, por lo que se podría inferir que sus mayores beneficios son gracias al manejo de herramientas tecnológicas, algunos de estos beneficios son: 
         .bg_2.p-3.mt-3
           ul.lista-ul.mb-0
             li 
@@ -128,7 +128,7 @@
               i.fas.fa-angle-right.txt--violeta
               | #[strong Desarrollo de una identidad de marca.]
         
-        p.mt-3 Estos solo son algunos de los beneficios que se generan al hacer uso del mercadeo dentro de las empresas, los cuales facilitan los objetivos de estas, independientemente de los que se hayan fijado en cada una de estas.
+        p.mt-3 Estos solo son algunos de los beneficios que se generan al hacer uso del mercadeo dentro de las empresas, las cuales facilitan el logro de los objetivos, independientemente de los que hayan sido fijados por la organización.
       
       .col-8.col-lg-5
         figure
@@ -165,7 +165,7 @@
 
       .row(titulo="Mercadeo emocional")
         .col-12.p-5
-          p.mb-0 Este es uno de los tipos de mercadeo más implementados hoy en día ya que se rige en el enfoque de las diferentes #[b sensaciones y sentimientos] que el consumidor presente en el momento de adquirir un producto o servicio. El mercadeo emocional ha aumentado gradualmente, ya que años anteriores, la competencia era menor y las estrategias de mercado se enfocaban en dar solución de una necesidad básica o primordial para el ser humano. Con base en esto las empresas que utilizan el mercadeo emocional se enfocan en transmitir o generar las emociones necesarias para que el cliente adquiera determinado producto, en esta también se hace uso del marketing sensorial, donde se incorporan los sentidos de las personas tales como el gusto, el olfato, el tacto, la vista y el oído; un ejemplo de esto es cuando las marcas de prendas de vestir incorporan aromas personalizados para el establecimiento y sus productos, esto estimula en el cliente el sentido del olfato, el cual al sentir nuevamente el olor de la fragancia, identificara directamente la prenda con la marca, independientemente que esta se encuentre fuera del establecimiento.
+          p.mb-0 Este es uno de los tipos de mercadeo más implementados hoy en día, ya que se rige en el enfoque de las diferentes #[b sensaciones y sentimientos] que el consumidor presente en el momento de adquirir un producto o servicio. El mercadeo emocional ha aumentado gradualmente, ya que años anteriores, la competencia era menor y las estrategias de mercado se enfocaban en dar solución de una necesidad básica o primordial para el ser humano. Con base en esto las empresas que utilizan el mercadeo emocional se enfocan en transmitir o generar las emociones necesarias para que el cliente adquiera determinado producto, en esta también se hace uso del marketing sensorial, donde se incorporan los sentidos de las personas tales como el gusto, el olfato, el tacto, la vista y el oído; un ejemplo de esto es cuando las marcas de prendas de vestir incorporan aromas personalizados para el establecimiento de sus productos, esto estimula en el cliente el sentido del olfato, el cual al sentir nuevamente el olor de la fragancia, identificara directamente la prenda con la marca, independientemente que esta se encuentre fuera del establecimiento.
 
       .row(titulo="Mercadeo viral")
         .col-12.p-5
@@ -173,7 +173,7 @@
 
       .row(titulo="Mercadeo relacional")
         .col-12.p-5
-          p.mb-0 Este tipo de mercadeo se define como aquel que logra una #[b comunicación asertiva y reciproca] entre el cliente y la empresa, teniendo en cuenta que es como un rol de confianza que se genera entre ambos. El mercadeo relacional, pretende involucrar de manera objetiva y clara los diferentes elementos que se requieren para la relación entre el vendedor y el cliente, generando un vínculo de confianza, lo cual permite estudiar y direccionar las diferentes acciones que la empresa puede tomar. Es importante mencionar que este tipo de mercadeo puede llegar a tomar un poco más de tiempo, sin embargo, es muy claro y directo especialmente frente a los que son considerados clientes potenciales, ya que permite relaciones duraderas que generan ganancias reales entre ambas partes.
+          p.mb-0 Este tipo de mercadeo se define como aquel que logra una #[b comunicación asertiva y recíproca] entre el cliente y la empresa, teniendo en cuenta que es como un rol de confianza que se genera entre ambos. El mercadeo relacional, pretende involucrar de manera objetiva y clara los diferentes elementos que se requieren para la relación entre el vendedor y el cliente, generando un vínculo de confianza, lo cual permite estudiar y direccionar las diferentes acciones que la empresa puede tomar. Es importante mencionar que este tipo de mercadeo puede llegar a tomar un poco más de tiempo, sin embargo, es muy claro y directo especialmente frente a los que son considerados clientes potenciales, ya que permite relaciones duraderas que generan ganancias reales entre ambas partes.
 
       .row(titulo="Mercadeo rentable")
         .col-12.p-5
